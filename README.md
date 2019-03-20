@@ -12,11 +12,8 @@ Go and check out [https://click.madlep.com](https://click.madlep.com) and
 embrace the click.
 
 ## Awesome! Where can I find out more?
-- [Phoenix LiveView: Interactive, Real-Time Apps. No Need to Write
-JavaScript.](https://dockyard.com/blog/2018/12/12/phoenix-liveview-interactive-real-time-apps-no-need-to-write-javascript)
-- [ElixirConf 2018 - Keynote - Chris
-McCord](https://www.youtube.com/watch?v=Z2DU0qLfPIY)
-- [github
-phoenixframework/phoenix_live_view](https://github.com/phoenixframework/phoenix_live_view)
-- [Walk-Through of Phoenix LiveView](Walk-Through of Phoenix LiveView)
+- [Phoenix LiveView: Interactive, Real-Time Apps. No Need to Write JavaScript.](https://dockyard.com/blog/2018/12/12/phoenix-liveview-interactive-real-time-apps-no-need-to-write-javascript)
+- [ElixirConf 2018 - Keynote - Chris McCord](https://www.youtube.com/watch?v=Z2DU0qLfPIY)
+- [github phoenixframework/phoenix_live_view](https://github.com/phoenixframework/phoenix_live_view)
+- [Walk-Through of Phoenix LiveView](https://elixirschool.com/blog/phoenix-live-view/)
 
