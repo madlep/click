@@ -8,7 +8,8 @@ Clicking is good for you.
 
 ## Where can I see this wonder in action?
 
-Go and check out [https://click.madlep.com](https://click.madlep.com) and embrace the click.
+Go and check out [https://click.madlep.com](https://click.madlep.com) and
+embrace the click.
 
 ## What the hell are you talking about?
 [Phoenix LiveView: Interactive, Real-Time Apps. No Need to Write
@@ -18,3 +19,4 @@ McCord](https://www.youtube.com/watch?v=Z2DU0qLfPIY)
 [github
 phoenixframework/phoenix_live_view](https://github.com/phoenixframework/phoenix_live_view)
 [Walk-Through of Phoenix LiveView](Walk-Through of Phoenix LiveView)
+
