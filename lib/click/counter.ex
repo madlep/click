@@ -15,14 +15,12 @@ defmodule Click.Counter do
 
   @impl true
   def init(count) do
-    IO.puts("starting counter with count=#{count}")
     {:ok, count}
   end
 
   @impl true
   def handle_cast(:clicked, count) do
     new_count = count + 1
-    IO.puts("clicked! count=#{new_count}")
     Phoenix.PubSub.broadcast(Click.PubSub, "clicks:count", {:count, new_count})
     {:noreply, new_count}
   end
