@@ -15,7 +15,8 @@ config :click, ClickWeb.Endpoint,
   server: true, # Without this line, your app will not start the web server!
   secret_key_base: "${SECRET_KEY_BASE}",
   url: [host: "click.madlep.com", port: 443],
-  cache_static_manifest: "priv/static/cache_manifest.json"
+  cache_static_manifest: "priv/static/cache_manifest.json",
+  force_ssl: [rewrite_on: [:x_forwarded_proto]]
 
 config :click, Click.Repo,
   adapter: Ecto.Adapters.Postgres,
