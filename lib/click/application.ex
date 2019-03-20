@@ -11,9 +11,10 @@ defmodule Click.Application do
       # Start the Ecto repository
       Click.Repo,
       # Start the endpoint when the application starts
-      ClickWeb.Endpoint
+      ClickWeb.Endpoint,
       # Starts a worker by calling: Click.Worker.start_link(arg)
       # {Click.Worker, arg},
+      {Click.Counter, 0}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

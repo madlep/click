@@ -1,8 +1,6 @@
 defmodule ClickWeb.ClickView do
   use Phoenix.LiveView
 
-  alias Phoenix.LiveView.Socket
-
   def render(assigns) do
     ~L"""
     <div class="">
@@ -15,10 +13,16 @@ defmodule ClickWeb.ClickView do
   end
 
   def mount(_session, socket) do
-    {:ok, assign(socket, click_count: 0) }
+    Phoenix.PubSub.subscribe(Click.PubSub, "clicks:count")
+    {:ok, assign(socket, click_count: Click.Counter.click_count()) }
   end
 
-  def handle_event("i_clicked", _value, socket = %Socket{assigns: %{click_count: click_count}}) do
-    {:noreply, assign(socket, [click_count: click_count + 1])}
+  def handle_event("i_clicked", _value, socket) do
+    Click.Counter.click()
+    {:noreply, socket}
+  end
+
+  def handle_info({:count, new_count}, socket) do
+    {:noreply, assign(socket, [click_count: new_count])}
   end
 end
