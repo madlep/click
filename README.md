@@ -1,20 +1,20 @@
 # Click
 
-To start your Phoenix server:
+Super simple Phoenix LiveView demo.
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
+It's a clicker game! These are massive with the kids. Click. You'll feel better,
+and be contributing to the clickiness. Click for the benefit of all humankind.
+Clicking is good for you.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## Where can I see this wonder in action?
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+Go and check out [https://click.madlep.com](https://click.madlep.com) and embrace the click.
 
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+## What the hell are you talking about?
+[Phoenix LiveView: Interactive, Real-Time Apps. No Need to Write
+JavaScript.(https://dockyard.com/blog/2018/12/12/phoenix-liveview-interactive-real-time-apps-no-need-to-write-javascript)
+[ElixirConf 2018 - Keynote - Chris
+McCord](https://www.youtube.com/watch?v=Z2DU0qLfPIY)
+[github
+phoenixframework/phoenix_live_view](https://github.com/phoenixframework/phoenix_live_view)
+[Walk-Through of Phoenix LiveView](Walk-Through of Phoenix LiveView)
