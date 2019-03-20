@@ -11,7 +11,7 @@ Clicking is good for you.
 Go and check out [https://click.madlep.com](https://click.madlep.com) and
 embrace the click.
 
-## What the hell are you talking about?
+## Awesome! Where can I find out more?
 - [Phoenix LiveView: Interactive, Real-Time Apps. No Need to Write
 JavaScript.](https://dockyard.com/blog/2018/12/12/phoenix-liveview-interactive-real-time-apps-no-need-to-write-javascript)
 - [ElixirConf 2018 - Keynote - Chris
