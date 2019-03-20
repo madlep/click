@@ -9,6 +9,8 @@ defmodule ClickWeb.ClickView do
       </div>
       <button phx-click="i_clicked">Click!</button>
     </div>
+
+    <a href="https://github.com/madlep/click">Check me out on github</a>
     """
   end
 
